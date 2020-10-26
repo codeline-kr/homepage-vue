@@ -1,28 +1,44 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+    <v-app>
+        <v-main>
+            <Intro />
+
+            <Portfolios id="portfolios" />
+            <div class="padding"><Aboutus /></div>
+            <Contactus />
+        </v-main>
+    </v-app>
 </template>
-
-<script>
-import HelloWorld from "./components/HelloWorld.vue";
-
-export default {
-  name: "App",
-  components: {
-    HelloWorld
-  }
-};
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss"></style>
+<style scoped lang="scss">
+.padding {
+    padding: 10rem 0 5rem;
+    @media #{map-get($display-breakpoints, 'xs-only')} {
+        padding-top: 5rem;
+    }
 }
 </style>
+
+<script>
+import Intro from './components/Intro';
+import Portfolios from './components/Portfolios';
+import Aboutus from './components/Aboutus';
+import Contactus from './components/Contactus';
+
+export default {
+    name: 'App',
+
+    components: {
+        Intro,
+        Portfolios,
+        Aboutus,
+        Contactus,
+    },
+
+    data: () => ({
+        //
+    }),
+
+    mounted() {},
+};
+</script>

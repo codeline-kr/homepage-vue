@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79.019" height="30.848" viewBox="0 0 79.019 30.848">
+  <g id="small_logo" transform="translate(79.019 30.848) rotate(180)">
+    <g id="로고아이콘" transform="translate(0 30.848) rotate(-90)" style="isolation: isolate">
+      <path id="패스_15" data-name="패스 15" d="M28.894,17.68,8.652,1.192a5.3,5.3,0,0,0-6.7,8.223L22.2,25.9a5.3,5.3,0,0,0,6.7-8.223Z" transform="translate(0 16.06)" fill="#68a5b8"/>
+      <path id="패스_16" data-name="패스 16" d="M1.192,12.159a5.3,5.3,0,0,0,7.46.763l4.306-3.507a5.3,5.3,0,0,0-6.7-8.223L1.954,4.7a5.3,5.3,0,0,0-.763,7.46Z" transform="translate(15.936 0)" fill="#68a5b8"/>
+    </g>
+    <g id="로고아이콘-2" data-name="로고아이콘" transform="translate(35.864 30.848) rotate(-90)" style="isolation: isolate">
+      <path id="패스_15-2" data-name="패스 15" d="M1.954,9.415,22.2,25.9a5.3,5.3,0,0,0,6.7-8.223L8.652,1.192a5.3,5.3,0,0,0-6.7,8.223Z" transform="translate(0 0)" fill="#d55e4a"/>
+      <path id="패스_16-2" data-name="패스 16" d="M13.72,1.954a5.3,5.3,0,0,0-7.46-.763L1.954,4.7a5.3,5.3,0,0,0,6.7,8.223l4.306-3.507a5.3,5.3,0,0,0,.763-7.46Z" transform="translate(0 29.04)" fill="#d55e4a"/>
+    </g>
+  </g>
+</svg>
