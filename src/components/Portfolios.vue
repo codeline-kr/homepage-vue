@@ -1,11 +1,11 @@
 <template>
     <v-container id="portfolios">
         <h2 class="text-center mb-10">
-            <span class="d-block primary--text mb-2">Our Works</span>
-            Recently Added Portfolios
+            <span class="d-block primary--text mb-2" data-aos="fade-up">Our Works</span>
+            <p data-aos="fade-up" data-aos-delay="150">Recently Added Portfolios</p>
         </h2>
         <v-row>
-            <v-col v-for="work in works" :key="work.id">
+            <v-col v-for="(work, i) in works" :key="work.id" data-aos="fade-up" :data-aos-delay="150 + 100 * i">
                 <v-hover v-slot="{ hover }">
                     <v-card :class="{ 'on-hover': hover }" class="mx-auto rounded-xl pa-5">
                         <v-img aspect-ratio="1" height="250" min-width="250" :src="require(`@/assets/${work.img}.png`)" position="left top"></v-img>

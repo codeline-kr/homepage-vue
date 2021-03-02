@@ -39,11 +39,11 @@
             </svg>
         </div>
         <h2 class="text-center mb-1">
-            <span class="d-block primary--text mb-2">About Us</span>
-            Introducing Members
+            <span class="d-block primary--text mb-2" data-aos="fade-up">About Us</span>
+            <p data-aos="fade-up" data-aos-delay="150">Introducing Members</p>
         </h2>
         <v-row>
-            <v-col v-for="member in members" :key="member.id">
+            <v-col v-for="(member, i) in members" :key="member.id" data-aos="fade-up" :data-aos-delay="150 + 100 * i">
                 <v-hover v-slot="{ hover }">
                     <v-card :class="{ 'on-hover': hover }" class="mx-auto rounded-xl pa-10 text-center align-center justify-center">
                         <v-img width="203" height="203" class="mx-auto rounded-circle" :src="require(`@/assets/avatar${member.id}.png`)"></v-img>
@@ -164,6 +164,7 @@ h2 {
         transform-origin: bottom;
         transform: scaleY(1);
         border-radius: 24px;
+        transition: 0.5s;
     }
     transition: 0.5s !important;
     box-shadow: none !important;
@@ -188,7 +189,6 @@ h2 {
         box-shadow: none !important;
     }
     &::before {
-        transition: 0.5s;
         transform: scaleY(0.85);
         background-color: var(--v-primary-base);
         box-shadow: 10px 10px 30px rgba(#000, 0.2) !important;

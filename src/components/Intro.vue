@@ -4,19 +4,47 @@
             <div class="logo-svg1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="1191.2950439453125" height="465.7380065917969" viewBox="0 0 1191.295 465.738">
                     <g id="logo_outline" transform="translate(-801.455 -230.313)">
-                        <path class="line1" d="M206.656,29.437A79.86,79.86,0,0,0,94.29,17.948L29.431,70.776A79.873,79.873,0,0,0,130.32,194.632L195.179,141.8a79.871,79.871,0,0,0,11.49-112.366Z" transform="translate(1014.591 230.863) rotate(90)" fill="none" stroke="#d55e4a" stroke-width="1"></path>
-                        <path class="line2" d="M29.431,141.8,334.322,390.155A79.873,79.873,0,0,0,435.211,266.3L130.32,17.948A79.873,79.873,0,0,0,29.431,141.8Z" transform="translate(1452.001 230.863) rotate(90)" fill="none" stroke="#d55e4a" stroke-width="1"></path>
-                        <path class="line3" d="M435.206,266.3,130.315,17.948A79.873,79.873,0,0,0,29.426,141.8L334.317,390.156A79.873,79.873,0,0,0,435.206,266.3Z" transform="translate(1750.306 230.863) rotate(90)" fill="none" stroke="#68a5b8" stroke-width="1"></path>
-                        <path class="line4" d="M17.956,183.149a79.86,79.86,0,0,0,112.367,11.49l64.859-52.828A79.873,79.873,0,0,0,94.292,17.954L29.433,70.782a79.871,79.871,0,0,0-11.49,112.366Z" transform="translate(1992.199 470.888) rotate(90)" fill="none" stroke="#68a5b8" stroke-width="1"></path>
+                        <path
+                            class="line1"
+                            d="M206.656,29.437A79.86,79.86,0,0,0,94.29,17.948L29.431,70.776A79.873,79.873,0,0,0,130.32,194.632L195.179,141.8a79.871,79.871,0,0,0,11.49-112.366Z"
+                            transform="translate(1014.591 230.863) rotate(90)"
+                            fill="none"
+                            stroke="#d55e4a"
+                            stroke-width="1"
+                        ></path>
+                        <path
+                            class="line2"
+                            d="M29.431,141.8,334.322,390.155A79.873,79.873,0,0,0,435.211,266.3L130.32,17.948A79.873,79.873,0,0,0,29.431,141.8Z"
+                            transform="translate(1452.001 230.863) rotate(90)"
+                            fill="none"
+                            stroke="#d55e4a"
+                            stroke-width="1"
+                        ></path>
+                        <path
+                            class="line3"
+                            d="M435.206,266.3,130.315,17.948A79.873,79.873,0,0,0,29.426,141.8L334.317,390.156A79.873,79.873,0,0,0,435.206,266.3Z"
+                            transform="translate(1750.306 230.863) rotate(90)"
+                            fill="none"
+                            stroke="#68a5b8"
+                            stroke-width="1"
+                        ></path>
+                        <path
+                            class="line4"
+                            d="M17.956,183.149a79.86,79.86,0,0,0,112.367,11.49l64.859-52.828A79.873,79.873,0,0,0,94.292,17.954L29.433,70.782a79.871,79.871,0,0,0-11.49,112.366Z"
+                            transform="translate(1992.199 470.888) rotate(90)"
+                            fill="none"
+                            stroke="#68a5b8"
+                            stroke-width="1"
+                        ></path>
                     </g>
                 </svg>
             </div>
             <div>
                 <h1>
-                    <img src="@/assets/logo.svg" alt="codeline" :width="$vuetify.breakpoint.xs ? 200 : 230" />
+                    <img src="@/assets/logo.svg" alt="codeline" :width="$vuetify.breakpoint.xs ? 200 : 230" data-aos="fade-up" />
                 </h1>
-                <h2 :class="$vuetify.breakpoint.xs ? 'mt-8' : 'mt-12'">apps<span></span>web<span></span>design</h2>
-                <div class="btn mt-9">
+                <h2 :class="$vuetify.breakpoint.xs ? 'mt-8' : 'mt-12'" data-aos="fade-up" data-aos-delay="200">apps<span></span>web<span></span>design</h2>
+                <div class="btn mt-9" data-aos="fade-up" data-aos-delay="250">
                     <v-btn @click="$vuetify.goTo('#portfolios')">Portfolio</v-btn>
                     <v-btn @click="$vuetify.goTo('#aboutus')">Members</v-btn>
                     <v-btn @click="$vuetify.goTo('#contactus')">Contact Us</v-btn>
