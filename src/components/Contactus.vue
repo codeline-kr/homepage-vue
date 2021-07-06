@@ -12,13 +12,13 @@
                 <address class="mt-3">대전시 서구 도안북로 88<br />산업협력단 창업지원센터 O1-504호</address>
             </v-col>
             <v-col cols="12" md="4" class="mt-5 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-                <h3 class="mb-2 d-flex align-center  justify-center justify-md-start primary--text font-weight-bold subtitle-1"><v-icon class="mr-2" color="primary">mdi-github</v-icon>GitHub</h3>
+                <h3 class="mb-2 d-flex align-center justify-center justify-md-start primary--text font-weight-bold subtitle-1"><v-icon class="mr-2" color="primary">mdi-github</v-icon>GitHub</h3>
                 <p>https://github.com/codeline-kr</p>
             </v-col>
             <v-spacer></v-spacer>
         </v-row>
-        <footer class="grey--text overline text-center text-md-left mt-10 d-flex  justify-center justify-md-space-between align-md-center">
-            <div>CODELINE Corp. © 2020</div>
+        <footer class="grey--text overline text-center text-md-left mt-10 d-flex justify-center justify-md-space-between align-md-center">
+            <div>CODELINE Corp. © 2021</div>
             <img src="@/assets/small_logo.svg" alt="codeline" @click="$vuetify.goTo(0)" />
         </footer>
     </v-container>

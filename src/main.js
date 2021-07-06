@@ -11,7 +11,7 @@ new Vue({
     store,
     vuetify,
     created() {
-        AOS.init({ disable: 'phone', duration: 800, once: true });
+        AOS.init({ duration: 800, once: true });
     },
     render: (h) => h(App),
 }).$mount('#app');
